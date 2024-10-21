@@ -5,12 +5,12 @@
   "author": "Bruno Bradach",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brunob15/ngx-element.git"
+    "url": "https://github.com/zdigambar/dz-ngx-element.git"
   },
   "bugs": {
-    "url": "https://github.com/brunob15/ngx-element/issues"
+    "url": "https://github.com/zdigambar/dz-ngx-element/issues"
   },
-  "homepage": "https://github.com/brunob15/ngx-element",
+  "homepage": "https://github.com/zdigambar/dz-ngx-element",
   "keywords": [
     "angular",
     "elements",
