@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Demo Angular Elements</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div class="content">
+    <h1 class="section-title">Talks</h1>
+    <div class="talks">
+      <ngx-element
+        selector="talk"
+        data-title="Angular Elements"
+        data-description="How to write Angular and get Web Components"
+        data-speaker="Bruno"
+        data-tags='["Angular", "Elements"]'>
+      </ngx-element>
+      <div class="clicked-tags">
+        To be able to listen to output events of Angular talk component (clicks on its badges):
+        <button
+          onclick="ngxElementTalk.addComponentListener('talk', 'tagClick', 'clicked-tags-container'); this.disabled=true; this.innerText='Already done ...';">
+            Add the listener via pure JS
+        </button>
+        (see dev console)<br /><br />
+        Clicked badges: <span id="clicked-tags-container"></span>
+      </div>
+    </div>
+
+    <h1 class="section-title">Sponsors</h1>
+    <div class="sponsors">
+      <ngx-element 
+        selector="sponsor"
+        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/JetBrains_Logo_2016.svg/368px-JetBrains_Logo_2016.svg.png"
+        data-name="JetBrains">
+      </ngx-element>
+    </div>
+  </div>
+</body>
+</html>
