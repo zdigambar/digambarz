@@ -1,5 +1,5 @@
 # Supported version-
-This ngx-element is support angular 10
+This ngx-element is support #Angular 10#
 
 # NgxElement
 
@@ -16,7 +16,7 @@ $ ng add @angular/elements
 
 ## Installing the library
 ```
-$ npm install ngx-element --save
+$ npm install @zdigambar/ngx-element --save
 ```
 
 ## Usage

@@ -2,7 +2,7 @@
   "name": "@zdigambar/ngx-element",
   "version": "0.0.2",
   "description": "A simple way to lazy load Angular components in non-angular projects",
-  "author": "Bruno Bradach",
+  "author": "Digambar Zurkale",
   "repository": {
     "type": "git",
     "url": "https://github.com/zdigambar/dz-ngx-element.git"
@@ -11,7 +11,7 @@
     "url": "https://github.com/zdigambar/dz-ngx-element/issues"
   },
   "homepage": "https://github.com/zdigambar/dz-ngx-element",
-  "keywords": [
+ "keywords": [
     "angular",
     "elements",
     "angular elements",
