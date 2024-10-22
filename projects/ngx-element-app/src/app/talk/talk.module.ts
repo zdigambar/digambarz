@@ -3,10 +3,9 @@ import { NgModule, Type } from '@angular/core';
 import { TalkComponent } from './talk.component';
 
 @NgModule({
-  declarations: [TalkComponent],
-  imports: [CommonModule],
-  exports: [TalkComponent],
-  entryComponents: [TalkComponent]
+    declarations: [TalkComponent],
+    imports: [CommonModule],
+    exports: [TalkComponent]
 })
 export class TalkModule {
   customElementComponent: Type<any> = TalkComponent;

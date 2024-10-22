@@ -3,10 +3,9 @@ import { NgModule, Type } from '@angular/core';
 import { SponsorComponent } from './sponsor.component';
 
 @NgModule({
-  declarations: [SponsorComponent],
-  imports: [CommonModule],
-  exports: [SponsorComponent],
-  entryComponents: [SponsorComponent]
+    declarations: [SponsorComponent],
+    imports: [CommonModule],
+    exports: [SponsorComponent]
 })
 export class SponsorModule {
   customElementComponent: Type<any> = SponsorComponent;
