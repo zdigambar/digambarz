@@ -1,5 +1,8 @@
-# Supported version-
-This ngx-element is support #Angular 10#
+# Supported version
+| ngx-element  | Angular  |
+| ------------ | -------  |
+| 1.x.x        | ^10.x.x  |
+| 2.x.x        | ^11.x.x  |
 
 # NgxElement
 
