@@ -145,6 +145,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-element"
+    }
+  }
 }
